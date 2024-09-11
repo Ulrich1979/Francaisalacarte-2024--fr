@@ -70,7 +70,7 @@ width-s {
     background-color: var(--col-two);
 }
 
-.comp-sec, .work-sec {
+#comp-sec, .work-sec {
     color: var(--col-two);
     background-color: var(--col-one);
 }
@@ -121,8 +121,17 @@ width-s {
     margin-left: 0.5rem;
 }
 
+/* COMPONENTS SECTION */
+#comp-sec {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 2rem;
+}
 
-
+.comp-item {
+    flex: 0 1 auto;
+}
 
 /* SERVICE SECTION */
 
