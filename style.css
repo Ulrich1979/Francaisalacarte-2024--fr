@@ -57,6 +57,10 @@ p {
     padding: 3rem max(calc((100vw - 1000px) / 2),1rem);
 }
 
+width-s {
+    max-width: 35rem;
+}
+
 .my-2 {
     margin: 2rem 0;
 }
@@ -78,13 +82,9 @@ p {
     font-size: 1.15rem;
 }
 
-.hero-contacts {
+.button-wrapper {
     display: flex;
-}
-
-.hero-contacts i {
-    font-size: 2rem;
-    margin-left: 2rem;
+    margin: 2rem 0;
 }
 
 .link-button {
