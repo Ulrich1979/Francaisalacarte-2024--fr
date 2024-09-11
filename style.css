@@ -227,33 +227,8 @@ a.big-icon {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 760px) {
-    .hero-container, .grid-container {
-        grid-template-columns: 1fr;
-    }
-    
-    .hero-image {
-    height: 60vh;
-    }
-    
-    .link-button {
-    margin: 2rem auto;    
-    }
-    
-    .work-list {
-    grid-template-columns: 1fr;
-    }
-    
-    .work-item {
-    max-width: 100%;
-    }
-    
-    .work-item img {
-    width: 100vw;
-    height: auto;
-    aspect-ratio: auto;
-    }
-    
-    .service-list {
+
+    .cours-list {
     grid-template-columns: 1fr;
     }
 
