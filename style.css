@@ -35,7 +35,7 @@ h3 {
     font-size: 1.2rem;
 }
 
-p {
+p, button {
     font-size: 1.05rem;
     line-height: 1.65;
 }
@@ -156,6 +156,13 @@ width-s {
     padding-left: 1rem;
 }
 
+.cours-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
 /* FAQ SECTION */
 button.accordion {
     width: 100%;
@@ -188,6 +195,15 @@ button.active:after {
     transition: max-height 0.35s ease-out;
 }
 
+
+/* CLOSING SECTION */
+
+#closing-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
 
 /* MEDIA QUERIES */
 
