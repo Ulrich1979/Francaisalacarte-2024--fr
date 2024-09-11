@@ -130,8 +130,20 @@ Vous trouverez réponse à vos intérogations sur cette page.</p>
     </section>
     
     <footer>
-        <div class="center">
+        <div class="container center">
             <p>&copy; 2024, Ulrich Chaumette</p>
+            <div class="nav-list">
+                <div class="nav-item">
+                    <a href="#">Terms</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">Conditions</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">Legals</a>
+                </div>
+                
+            </div>
         </div>
     </footer>
 
@@ -145,7 +157,7 @@ Vous trouverez réponse à vos intérogations sur cette page.</p>
         var panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
           panel.style.maxHeight = null;
-          panel.style.margin = "0";
+          panel.style.margin = "1rem 0 0 0";
         } else {
           panel.style.maxHeight = panel.scrollHeight + "px";
           panel.style.margin = "1rem 0 2rem 0";

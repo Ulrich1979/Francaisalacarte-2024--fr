@@ -240,6 +240,11 @@ button.active:after {
 }
 
 footer {
-    height: 80px;
+    min-height: 80px;
     padding: 1rem max(calc((100vw - 1000px) / 2),1rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
