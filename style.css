@@ -211,12 +211,16 @@ button.active:after {
 
 .closing-list a i {
     color: var(--col-one);
-    font-size: 2rem;
     transition: 0.5s;
 }
 
+a.big-icon {
+    font-size: 2rem;
+}
+
 .closing-list a i:hover {
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: -0.5rem;
 }
 
 /* MEDIA QUERIES */
