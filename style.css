@@ -69,9 +69,8 @@ width-s {
     gap: 2rem;
 }
 
-#hero-sec, #cours-sec, foot-sec {
+#hero-sec, #cours-sec, #foot-sec {
     color: var(--col-one);
-    background-color: var(--col-two);
 }
 
 #comp-sec, #closing-sec {
@@ -81,6 +80,10 @@ width-s {
 
 
 /* HEADER AND HERO */
+#hero-sec {
+    background-image: linear-gradient(160deg, var(--col-four), var(--col-two));
+}
+
 .hero-image {
     max-width: 15rem;
     max-height: 85%;
@@ -220,6 +223,7 @@ a.big-icon {
 /* FOOTER */    
 
 #foot-sec {
+    background-color: var(--col-four);
     display: flex;
     flex-direction: row;
     align-items: center;
