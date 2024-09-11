@@ -158,15 +158,12 @@ width-s {
 
 /* FAQ SECTION */
 button.accordion {
-    font-size: 1.2rem;
-    line-height: 1.6;
     width: 100%;
     text-align: left;
     transition: 0.5s;
     padding: .5rem 1rem;
-    border: 1px solid var(--col-three);
+    border: none;
     border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
 button.accordion:after {
@@ -187,6 +184,7 @@ button.active:after {
     overflow: hidden;
     padding: 0 1.5rem;
     max-height: 0;
+    margin: 1rem 0 2rem 0;
     transition: max-height 0.35s ease-out;
 }
 
