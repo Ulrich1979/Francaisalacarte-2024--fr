@@ -171,6 +171,7 @@ button.accordion {
     padding: .5rem 1rem;
     border: none;
     border-radius: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 button.accordion:after {
@@ -237,12 +238,7 @@ button.active:after {
 
 }
 
-/* FOOTER */
-
-footer {
-    min-height: 80px;
-    padding: 1rem max(calc((100vw - 1000px) / 2),1rem);
-}    
+/* FOOTER */    
 
 #foot-sec {
     display: flex;
@@ -261,6 +257,7 @@ footer {
 .nav-item a {
     text-decoration: none;
     font-size: 1rem;
-    margin-bottom: 0.5rem;
+    color: var(--col-three);
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--col-three);
 }
