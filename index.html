@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <section id="hero-sec" class="container center width-s">
+    <section id="hero-sec" class="container center flex-col width-s">
             
             <img class="hero-image" src="assets/PXL_20221211_145621163.PORTRAIT-edited-2048x2048.jpg" alt="me smiling at you">
         
@@ -37,7 +37,7 @@
         </div>
     </section>
 
-    <section id="comp-sec" class="container">
+    <section id="comp-sec" class="container flex-col">
                 
         <div class="comp-item">
             <h2>Cours de langues pour adultes.</h2>
@@ -57,8 +57,8 @@
 
 
 
-    <section id="cours-sec" class="container">
-        <h2 class="my-2 center">Cours proposés</h2>
+    <section id="cours-sec" class="container flex-col">
+        <h2 class="center">Cours proposés</h2>
         <div class="cours-list">
             <div class="cours-item">
                 <i class="fa-solid fa-comment"></i>
@@ -123,7 +123,7 @@ Vous trouverez réponse à vos intérogations sur cette page.</p>
 
     </section>
 
-    <section id ="closing-sec" class="container center width-s">
+    <section id ="closing-sec" class="container center flex-col width-s">
         <p>Vous souhaitez discuter de votre projet de site web? 
         Je suis là pour vous aider à <span class="fw-700">concrétiser vos idées</span> et à <span class="fw-700">créer une présence en ligne</span> qui vous représente. Contactez-moi dès aujourd'hui pour plus d'informations.</p>
         <div class="closing-list">
@@ -161,7 +161,7 @@ Vous trouverez réponse à vos intérogations sur cette page.</p>
         var panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
           panel.style.maxHeight = null;
-          panel.style.margin = "0.5rem 0 0 0";
+          panel.style.margin = "0";
         } else {
           panel.style.maxHeight = panel.scrollHeight + 10 + "px";
           panel.style.margin = "1rem 0 2rem 0";

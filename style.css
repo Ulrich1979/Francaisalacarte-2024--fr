@@ -62,8 +62,11 @@ width-s {
     max-width: 35rem;
 }
 
-.my-2 {
-    margin: 2rem 0;
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 #hero-sec, #cours-sec, footer {
@@ -78,14 +81,6 @@ width-s {
 
 
 /* HEADER AND HERO */
-
-#hero-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-}
-
 .hero-image {
     max-width: 15rem;
     max-height: 85%;
@@ -124,13 +119,6 @@ width-s {
 }
 
 /* COMPONENTS SECTION */
-#comp-sec {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    gap: 2rem;
-}
-
 .comp-item {
     flex: 0 1 auto;
     display: flex;
@@ -140,7 +128,6 @@ width-s {
 }
 
 /* SERVICE SECTION */
-
 .cours-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -195,14 +182,6 @@ button.active:after {
 
 
 /* CLOSING SECTION */
-
-#closing-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-}
-
 .closing-list {
     display: flex;
     align-items: center;
