@@ -87,7 +87,7 @@ width-s {
     margin: 2rem 0;
 }
 
-.link-button {
+.button {
     padding: .5rem 3rem;
     font-size: 1rem;
     text-decoration: none;
@@ -100,7 +100,7 @@ width-s {
     transition: 0.6s;
 }
 
-.link-button:hover {
+.button:hover {
     background: var(--col-accent);
 }
 
