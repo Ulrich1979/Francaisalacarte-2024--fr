@@ -203,6 +203,22 @@ button.active:after {
     gap: 2rem;
 }
 
+.closing-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.closing-list a i {
+    color: var(--col-one);
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.closing-list a i:hover {
+    margin-left: 1.5rem;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 760px) {
