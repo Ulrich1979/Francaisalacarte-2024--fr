@@ -1,11 +1,11 @@
 /* GENERAL */
 
 :root {
-  --col-accent: #4EA5A2;
-  --col-one: #edf2f4;
-  --col-three: #8d99ae;
-  --col-two: #2b2d42;
-  --col-four: #ef233c;
+  --col-accent: #ffffff;
+  --col-one: #efebe6;
+  --col-three: #111111;
+  --col-two: #521928;
+  --col-four: #eae6e7;
 }
 
 
@@ -18,7 +18,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: "Playfair Display", serif;
+    font-family: "DM Serif Text", serif;
     font-weight: 100;
 }
 
