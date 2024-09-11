@@ -70,7 +70,7 @@ width-s {
     background-color: var(--col-two);
 }
 
-#comp-sec {
+#comp-sec, #closing-sec {
     color: var(--col-three);
     background-color: var(--col-five);
 }
@@ -225,11 +225,6 @@ button.active:after {
     }
 
 }
-
-    .closing-sec p, .closing-sec .fw-700 {
-    color: var(--col-two);
-}
-
 
 footer {
     height: 80px;
