@@ -82,7 +82,7 @@ width-s {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .hero-image {
@@ -94,7 +94,7 @@ width-s {
 
 }
 
-.hero-sec p {
+#hero-sec p {
     font-size: 1.15rem;
 }
 
