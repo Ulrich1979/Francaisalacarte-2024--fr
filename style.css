@@ -69,7 +69,7 @@ width-s {
     gap: 2rem;
 }
 
-#hero-sec, #cours-sec, footer {
+#hero-sec, #cours-sec, foot-sec {
     color: var(--col-one);
     background-color: var(--col-two);
 }
@@ -128,6 +128,10 @@ width-s {
 }
 
 /* SERVICE SECTION */
+cours-sec {
+    background-image: linear-gradient(160deg, var(--col-two), var(--col-four));
+}
+
 .cours-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -152,6 +156,7 @@ width-s {
 
 /* FAQ SECTION */
 button.accordion {
+    background-color: var(--col-two);
     width: 100%;
     text-align: left;
     transition: 0.5s;
