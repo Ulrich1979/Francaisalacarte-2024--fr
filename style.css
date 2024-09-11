@@ -114,11 +114,11 @@ width-s {
 }
 
 .button i {
-    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .button:hover {
-    color: var(--col-accent);
+    margin-left: 0.5rem;
 }
 
 
