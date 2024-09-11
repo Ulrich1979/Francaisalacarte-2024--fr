@@ -128,8 +128,8 @@ width-s {
 }
 
 /* SERVICE SECTION */
-cours-sec {
-    background-image: linear-gradient(160deg, var(--col-two), var(--col-four));
+#cours-sec {
+    background-image: linear-gradient(160deg, var(--col-four), var(--col-two));
 }
 
 .cours-list {
