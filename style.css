@@ -3,7 +3,7 @@
 :root {
   --col-accent: #ffffff;
   --col-one: #521928;
-  --col-three: #111111;
+  --col-three: #725555;
   --col-two: #efebe6;
   --col-four: #eae6e7;
 }
@@ -38,6 +38,7 @@ h3 {
 p {
     font-size: 1.2rem;
     line-height: 1.6;
+    font-weight: 200;
 }
 
 .fw-700 {
@@ -65,7 +66,7 @@ width-s {
     margin: 2rem 0;
 }
 
-#hero-sec, .service-sec, footer {
+#hero-sec, #cours-sec, footer {
     color: var(--col-one);
     background-color: var(--col-two);
 }
@@ -112,7 +113,6 @@ width-s {
     cursor: pointer;
     transition: 0.6s;
     color: var(--col-three);
-    font-weight: 700;
 }
 
 .button i {
@@ -129,27 +129,32 @@ width-s {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
 .comp-item {
     flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 2rem;
 }
 
 /* SERVICE SECTION */
 
-.service-list {
+.cours-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
 }
 
-.service-list i {
+.cours-list i {
     font-size: 2.4rem;
     padding-bottom: 1.3rem;
 }
 
-.service-list ul {
+.cours-list ul {
     padding-left: 1rem;
 }
 
