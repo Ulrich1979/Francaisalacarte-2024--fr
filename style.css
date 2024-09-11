@@ -45,7 +45,7 @@ p {
 }
 
 .fc-pale {
-    color: var(--col-three);    
+    color: var(--col-four);    
 }
 
 
@@ -74,35 +74,12 @@ p {
 
 /* HEADER AND HERO */
 
-.hero-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    justify-items: stretch;
-}
-
-.column-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.column-left h1, h2, h3, p {
-    margin-bottom: 2rem;
-}
-
 .hero-sec p {
     font-size: 1.15rem;
 }
 
 .hero-contacts {
     display: flex;
-    align-items: center;
-}
-
-.hero-contacts a i {
-    color: var(--col-one);
 }
 
 .hero-contacts i {
