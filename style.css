@@ -234,6 +234,9 @@ a.big-icon {
 }
 
 .overlay .close-button {
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
     margin-bottom: 4rem;
     text-align: right;
     font-size: 3rem;
