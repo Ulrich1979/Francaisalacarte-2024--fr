@@ -231,13 +231,14 @@ a.big-icon {
 .overlay-content {
     position: relative;
     height: 100%;
+    margin-top: 4rem;
+    padding: 0 max(calc((100vw - 1000px) / 2),1rem);
 }
 
 .overlay .close-button {
     position: absolute;
     top: 4rem;
     right: 4rem;
-    margin-bottom: 4rem;
     text-align: right;
     font-size: 3rem;
     font-weight: 700;
