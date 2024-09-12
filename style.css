@@ -233,10 +233,9 @@ a.big-icon {
     height: 100%;
 }
 
-.overlay .closebtn {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
+.overlay .close-button {
+    margin-bottom: 4rem;
+    text-align: right;
     font-size: 3rem;
     font-weight: 700;
     color: var(--col-accent);
