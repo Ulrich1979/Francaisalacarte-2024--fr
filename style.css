@@ -219,8 +219,12 @@ a.big-icon {
 
 @media screen and (max-width: 760px) {
 
+    .button-wrapper {
+        flex-direction: column;
+    }
+    
     .cours-list {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 
 }
