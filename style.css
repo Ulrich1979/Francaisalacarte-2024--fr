@@ -234,12 +234,19 @@ a.big-icon {
     margin-top: 4rem;
 }
 
+.overlay-content > {
+    font-size: 80%;
+}
+
 .overlay .close-button {
-    margin-top: 4rem;
     text-align: right;
     color: var(--col-accent);
     text-decoration: none;
   }
+
+p a.close-button {
+    margin-top: 4rem;
+}
 
 /* FOOTER */    
 
