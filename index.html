@@ -125,7 +125,6 @@
         </section>
     
     <div id="overlays">
-    
         <div id="overlayMentions" class="overlay">
             <a href="javascript:void(0)" class="close-button" onclick="closeMentions()">X</a>
             <div class="overlay-content">
@@ -145,6 +144,44 @@
                 <p>Note : l’éditeur se réserve le droit de demander la suppression d’un lien qu’il estime non conforme à sa ligne éditoriale</p>
             </div>
         </div>
+
+        <div id="overlayCGV" class="overlay">
+            <a href="javascript:void(0)" class="close-button" onclick="closeCGV()">X</a>
+            <div class="overlay-content">
+                <h2>Mentions légales</h2>
+                <h3>Limite d’âge</h3>
+                <p>18 ans minimum (sauf accord préalable de l’organisme de formation). Dans le cas où l’entrée en formation concerne un mineur, l’autorisation des parents est systématiquement demandée avant l’entrée en formation, tout d’abord par le biais d’un contact, le cas échéant téléphonique, puis par la signature d’un formulaire d’autorisation.</p>
+                <h3>Données collectées</h3></h3>
+                <p>les données collectées par le biais des formulaires relatifs au service de Français Langue Etrangère (FLE) sont déversées dans le logiciel Ypareo (logiciel interne de gestion et de suivi). Ces données peuvent être utilisées à des fins commerciales et notamment à des fins de gestion des clients ou des prospects (commande, facturation…).</p>
+                <h3>Assurance</h3></h3>
+                <p>les participants à nos cours doivent souscrire eux-mêmes une assurance personnelle couvrant les risques inhérents au voyage et au séjour (accident, maladie, vol, responsabilité civile, …).</p>
+                <h3>Tarif</h3>
+                <p>Les tarifs indiqués sont des prix nets de TVA et comprennent les frais pédagogiques, la mise à disposition des équipements spécifiques, les manuels et documents de travail remis aux stagiaires ou mis à leur disposition. NB : les heures des jours fériés ne sont pas ni rattrapées, ni remboursées.</p>
+                <h4>Inscription</h4>
+                <p>L’inscription, pour être définitive, doit comporter le bulletin d’inscription rempli, daté et signé, et être accompagnée obligatoirement d’un règlement selon les conditions suivantes :</p>
+                <p>Cours de Journée et Cours d’été – Langue générale : paiement intégral de la 1 ère session à l’inscription et du solde au début des cours.</p>
+                <p>Cours du soir : paiement de 50 % à l’inscription et de 50 % au début des cours.</p>
+                <p>autres cours : paiement intégral à l’inscription</p>
+                pour les forfaits et longs séjours : paiement intégral à l’inscription, non remboursable.</p>
+                <h4>Désistement</h4>
+                <p>tout désistement doit être fait par écrit</p>
+                <p>si un désistement intervient plus de 15 jours avant le début du stage, le remboursement de la somme versée est intégral et s’effectue par virement sur un compte indiqué</p>
+                <p>s’il intervient pendant les 15 jours qui précèdent le début du stage, le montant de l’acompte est conservé.</p>
+                <p>Tout désistement intervenant après le début du stage, pour quelque raison que ce soit, n’exonère en aucune façon le stagiaire ou l’entreprise du paiement intégral du coût de la formation.</p>
+                <p>En cas d’annulation ou de report du stage par l’organisme (nombre de participants insuffisant, par exemple), celui-ci prévient l’entreprise ou le particulier. Les droits d’inscription versés sont, sur demande, soit remboursés, soit portés au crédit de l’entreprise ou du particulier.</p>
+                <p>Séjours soumis à l’obtention d’un visa (attestation fournie par le CIEL pour l’obtention du visa) : un désistement est accepté en cas de non-obtention du visa et à condition qu’il intervienne 15 jours avant le début du stage. Une fois le cours commencé, il ne pourra pas y avoir modification de dates, ni aucun remboursement.</p>
+                <h3>Moyens de paiement</h3></h3>
+                <p>vous pouvez payer soit en espèces, soit par chèque libellé en EUR, soit par carte bancaire (Visa ou Eurocard-Mastercard) en indiquant ci-dessous le numéro, la date d’expiration de votre carte bancaire ainsi que les trois derniers chiffres du numéro figurant au dos de votre carte (à côté de la signature). Dans ce dernier cas, le premier paiement tel que défini ci-dessus sera prélevé automatiquement à réception du bulletin d’inscription. Le solde sera prélevé, sauf avis contraire de votre part, au démarrage du cours.</p>
+                <p>Vous pouvez aussi payer par virement bancaire en euros sur notre compte dont les références figurent ci-dessous. Dans ce cas, nous envoyer impérativement une photocopie lisible de l’ordre de virement. Veuillez noter que les éventuels frais bancaires sur les virements ou les chèques sont à la charge du client.</p>
+                <h3>Sanction du stage</h3>
+                <p>une attestation de stage individuelle mentionnant l‘intitulé du stage de formation et ses dates de début et de fin est délivrée à l’issue de la formation. Sur demande, cette attestation peut préciser le nombre d’heures effectuées et/ou le niveau atteint (CECR).</p>
+                <h3>Report de session</h3>
+                <p>CCI CAMPUS se réserve la possibilité de reporter ou d’annuler un stage de formation en raison d’un nombre insuffisant de participants ou pour tout cas de force majeure. Les participants ou l’entreprise seront avertis dans les meilleurs délais. En cas de report ou d’annulation du stage de formation, les droits d’inscription acquittés seront remboursés sans frais ou crédités sur une inscription au même stage ou à tout autre stage de formation interentreprises proposé par l’organisme de formation.</p>
+                <h3>Litige</h3>
+                <p>toute inscription est soumise aux conditions générales d’inscription de l’organisme, qui prévalent sur toutes autres dispositions sauf acceptation écrite par l’organisme de formation. Pour tout litige, le lieu de juridiction compétent est Strasbourg.</p>
+            </div>
+        </div>
+
     </div>
 
     <footer>
@@ -152,10 +189,10 @@
             <p class="fs-small">&copy; 2024, Ulrich Chaumette</p>
             <div class="nav-list">
                 <div class="nav-item">
-                    <a class="fc-accent fs-small" href="#">CGV</a>
+                    <p class="fc-accent fs-small" onclick="openCGV()">CGV</p>
                 </div>
                 <div class="nav-item">
-                    <a class="fc-accent fs-small" href="" onclick="openMentions()">Mentions légales</a>
+                    <p class="fc-accent fs-small" onclick="openMentions()">Mentions légales</p>
                 </div>
                 
             </div>
@@ -183,11 +220,17 @@
         }
     
         function openMentions() {
-            document.getElementById("overlayMentions").style.width = "100%";
+            document.getElementById("overlayMentions").style.height = "100%";
+        }
+        function closeMentions() {
+            document.getElementById("overlayMentions").style.height = "0%";
         }
 
-        function closeMentions() {
-            document.getElementById("overlayMentions").style.width = "0%";
+        function openCGV() {
+            document.getElementById("overlayCGV").style.height = "100%";
+        }
+        function closeCGV() {
+            document.getElementById("overlayCGV").style.height = "0%";
         }
     </script>
 
