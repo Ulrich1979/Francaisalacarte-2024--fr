@@ -235,6 +235,7 @@ a.big-icon {
 }
 
 .overlay .close-button {
+    margin-top: 4rem;
     text-align: right;
     color: var(--col-accent);
     text-decoration: none;
