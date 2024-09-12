@@ -2,10 +2,10 @@
 
 :root {
   --col-five: #ffffff;
-  --col-one: #521928;
-  --col-three: #725555;
-  --col-two: #efebe6;
-  --col-four: #eae6e7;
+  --col-one: #165fe8;
+  --col-three: #367ef1;
+  --col-two: #f7f7ff;
+  --col-four: #e7e7f1;
 }
 
 
@@ -14,31 +14,33 @@
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-style: normal;
     transition: 0.2s;
     scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4 {
-    font-family: "Orelega One", serif;
-    font-weight: 100;
+    font-weight: 800;
     letter-spacing: 0.05rem;
 }
 
 h1 {
-    font-size: min(10vw, 4.5rem); 
-    font-weight: 500; 
+    font-size: min(10vw, 3.5rem); 
 }
 
-h2 {font-size: min(7vw, 1.8rem); 
+h2 {
+    font-size: min(7vw, 2.2rem); 
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 p, button {
-    font-size: 1.05rem;
-    line-height: 1.65;
 }
 
 .fw-700 {
