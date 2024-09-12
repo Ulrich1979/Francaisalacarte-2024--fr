@@ -234,6 +234,15 @@ a.big-icon {
     margin-top: 4rem;
 }
 
+.overlay .closebtn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+    color: var(--col-accent);
+    text-decoration: none;
+  }
+
 /* FOOTER */    
 
 #foot-sec {
