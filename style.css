@@ -15,7 +15,7 @@
     padding: 0;
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     line-height: 1.6;
     letter-spacing: 0.5px;
     font-style: normal;
@@ -51,6 +51,9 @@ p, button {
     color: var(--col-accent);    
 }
 
+fs-small {
+    font-size: 0.9rem;
+}
 
 .center {
     text-align: center;
@@ -199,7 +202,6 @@ button.active:after {
 }
 
 .closing-list a i {
-    color: var(--col-one);
     transition: 0.5s;
 }
 
