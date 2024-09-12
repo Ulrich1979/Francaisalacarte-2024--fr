@@ -124,40 +124,70 @@
         </div>
         </section>
     
+    <div id="overlays">
+    
+        <div id="overlayMentions" class="overlay">
+            <a href="javascript:void(0)" class="close-button" onclick="closeMentions()">X</a>
+            <div class="overlay-content">
+                <h2>Mentions légales</h2>
+                <h3>Siège social</h3>
+                <p>15, rue de la Nuée Bleue</p>
+                <p>67000 Strasbourg (France)</p>
+                <p>Tél : +33 (0)3 88 75 80 50</p>
+                <p>Email : contact[@]sdv.fr</p>
+                <h3>Publication et hébergement</h3>
+                <p>Directeur de la publication : F.Grandidier</p>
+                <h3>Hébergement : SdV</h3>
+                <p>SAS au capital de 110 000 € – RCS Strasbourg B 340571728 – N° SIRET 340 571 728 00013 – NAF 6201Z</p>
+                <h3>Liens hypertextes</h3>
+                <p>Il est possible de créer un lien vers le site de SdV. La création d’un lien doit ouvrir une nouvelle fenêtre et ne pas être imbriquée à l’intérieur d’une autre page.</p>
+                <p>Au préalable, une demande devra être faite à cette adresse : contact[@]sdv.fr</p>
+                <p>Note : l’éditeur se réserve le droit de demander la suppression d’un lien qu’il estime non conforme à sa ligne éditoriale</p>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div id="foot-sec" class="container center">
             <p class="fs-small">&copy; 2024, Ulrich Chaumette</p>
             <div class="nav-list">
                 <div class="nav-item">
-                    <a class="fc-accent fs-small" href="#">Terms</a>
+                    <a class="fc-accent fs-small" href="#">CGV</a>
                 </div>
                 <div class="nav-item">
-                    <a class="fc-accent fs-small" href="#">Conditions</a>
-                </div>
-                <div class="nav-item">
-                    <a class="fc-accent fs-small" href="#">Legals</a>
+                    <a class="fc-accent fs-small" href="#">Mentions légales</a>
                 </div>
                 
             </div>
         </div>
     </footer>
 
+
+
     <script class="">
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-          panel.style.margin = "0";
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + 10 + "px";
-          panel.style.margin = "1rem 0 2rem 0";
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            panel.style.margin = "0";
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + 10 + "px";
+            panel.style.margin = "1rem 0 2rem 0";
+            }
+            });
         }
-        });
+    
+        function openMentions() {
+            document.getElementById("overlayMentions").style.width = "100%";
+        }
+
+        function closeMentions() {
+            document.getElementById("overlayMentions").style.width = "0%";
         }
     </script>
 

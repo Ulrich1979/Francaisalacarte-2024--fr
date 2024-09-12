@@ -215,18 +215,25 @@ a.big-icon {
     margin-right: -0.5rem;
 }
 
-/* MEDIA QUERIES */
+/* OVERLAYS */
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--col-four);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
 
-@media screen and (max-width: 760px) {
-
-    .button-wrapper {
-        flex-direction: column;
-    }
-    
-    .cours-list {
-        grid-template-columns: 1fr;
-    }
-
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
 }
 
 /* FOOTER */    
@@ -250,4 +257,18 @@ a.big-icon {
     text-decoration: none;
     font-size: 1rem;
     padding-bottom: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 760px) {
+
+    .button-wrapper {
+        flex-direction: column;
+    }
+    
+    .cours-list {
+        grid-template-columns: 1fr;
+    }
+
 }
