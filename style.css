@@ -145,6 +145,7 @@ width-s {
 .cours-list i {
     font-size: 2.4rem;
     padding-top: 1.3rem;
+    color: var(--col-accent)
 }
 
 .cours-list ul {
