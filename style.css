@@ -231,7 +231,6 @@ a.big-icon {
 .overlay-content {
     position: relative;
     height: 100%;
-    margin-top: 4rem;
 }
 
 .overlay .closebtn {
