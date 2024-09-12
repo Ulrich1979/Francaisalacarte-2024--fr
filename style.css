@@ -239,6 +239,7 @@ a.big-icon {
     top: 2rem;
     right: 2rem;
     font-size: 3rem;
+    font-weight: 700;
     color: var(--col-accent);
     text-decoration: none;
   }
